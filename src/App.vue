@@ -1,28 +1,61 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
-  </div>
+  <v-app>
+    <Background />
+    <Fab />
+    <v-main>
+      <v-container>
+        <div class="d-flex flex-column">
+          <MainTitle class="ma-2" />
+          <div class="d-flex mt-2 flex-wrap flex-sm-nowrap ">
+            <div
+              class="d-flex flex-column order-3 order-sm-1 flex-grow-1 sidebar"
+            >
+              <OperatorInfo class="ma-2" />
+              <DevicesInfo class="ma-2" />
+              <MainFooter class="ma-2" />
+            </div>
+            <div class="d-flex flex-column order-1 order-sm-3 flex-grow-1">
+              <Tabs class="ma-2 " />
+            </div>
+          </div>
+        </div>
+      </v-container>
+    </v-main>
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import data from "@/data.json";
+import charspell from "@/data/charspell.json";
+
+import Background from "@/components/Background";
+import MainTitle from "@/components/Title";
+import OperatorInfo from "@/components/Operator";
+import DevicesInfo from "@/components/Devices";
+import MainFooter from "@/components/Footer";
+import Tabs from "@/components/Tabs";
+import Fab from "@/components/Fab";
 
 export default {
   name: "App",
   components: {
-    HelloWorld
-  }
+    Background,
+    MainTitle,
+    OperatorInfo,
+    DevicesInfo,
+    Tabs,
+    Fab,
+    MainFooter
+  },
+  data: () => ({
+    data: data,
+    charspell: charspell
+  })
 };
 </script>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style scoped>
+.sidebar {
+  max-width: 560px;
 }
 </style>

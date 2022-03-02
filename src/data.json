@@ -1,0 +1,53 @@
+{
+  "callsign": "BH8AEA",
+  "description": "Just another amateur radio station",
+  "location": "UESTC",
+  "locator": "OM10xs",
+  "class": "B",
+  "operator": {
+    "name": "Yukari Chiba",
+    "avatar": "https://0x7f.cc/img/favicon.jpg",
+    "email": "i@0x7f.cc",
+    "links": [
+      { "title": "HomePage", "link": "https://ewe.moe" },
+      { "title": "Blog", "link": "https://0x7f.cc" }
+    ]
+  },
+  "devices": [
+    {
+      "name": "ICOM 707",
+      "status": false,
+      "power": 100,
+      "ant": "DKGP10",
+      "type": ["HF"]
+    },
+    {
+      "name": "Baofeng UV-5R",
+      "status": true,
+      "power": 5,
+      "ant": "Baofeng",
+      "type": ["UHF", "VHF"]
+    },
+    {
+      "name": "Xiegu G90S",
+      "status": true,
+      "power": 20,
+      "ant": "DKGP10",
+      "type": ["HF"]
+    },
+    {
+      "name": "Jianpai 8800UV",
+      "status": true,
+      "power": 5,
+      "ant": "Baofeng",
+      "type": ["UHF", "VHF"]
+    },
+    {
+      "name": "QYT KT8900",
+      "status": true,
+      "power": 25,
+      "ant": "SG7900",
+      "type": ["UHF", "VHF"]
+    }
+  ]
+}

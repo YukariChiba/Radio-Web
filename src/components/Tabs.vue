@@ -8,7 +8,7 @@
       <v-window-item value="about">
         <About />
       </v-window-item>
-      <v-window-item value="log">
+      <v-window-item value="log" style="overflow-x: auto">
         <Log />
       </v-window-item>
     </v-window>

@@ -26,4 +26,5 @@ jobs:
           git config --global user.email 'bot.noreply@0x7f.cc'
           git add src/data
           git commit -m "cronjob: update QSO log"
-          git push github
+          git remote add github https://x-access-token:${{ secrets.GH_DEP_TOKEN }}@github.com/YukariChiba/Radio-Web
+          git push github HEAD

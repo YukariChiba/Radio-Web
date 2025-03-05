@@ -15,7 +15,9 @@
             >
                 <template v-slot:prepend>
                     <v-avatar color="grey">
-                        <v-icon color="white">mdi-antenna</v-icon>
+                        <v-icon color="white"
+                            >mdi-{{ d.icon || "antenna" }}</v-icon
+                        >
                     </v-avatar>
                 </template>
                 <v-chip

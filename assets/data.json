@@ -19,28 +19,40 @@
       "status": true,
       "power": 25,
       "ant": "DKGP10",
-      "type": ["HF"]
+      "type": ["HF"],
+      "icon": "router-wireless"
+    },
+    {
+      "name": "HackRF One",
+      "status": true,
+      "power": 0.01,
+      "ant": "270mm Rod",
+      "type": ["UHF", "VHF", "HF"],
+      "icon": "developer-board"
     },
     {
       "name": "Baofeng UV-5R",
       "status": true,
       "power": 5,
       "ant": "Baofeng",
-      "type": ["UHF", "VHF"]
+      "type": ["UHF", "VHF"],
+      "icon": "radio-handheld"
     },
     {
       "name": "Jianpai 8800UV",
       "status": true,
       "power": 5,
       "ant": "Baofeng",
-      "type": ["UHF", "VHF"]
+      "type": ["UHF", "VHF"],
+      "icon": "radio-handheld"
     },
     {
       "name": "QYT KT8900",
       "status": true,
       "power": 25,
       "ant": "SG7900",
-      "type": ["UHF", "VHF"]
+      "type": ["UHF", "VHF"],
+      "icon": "router-wireless"
     }
   ]
 }

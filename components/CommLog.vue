@@ -33,6 +33,15 @@
             >
             <small>{{ item.callsign }}</small>
         </template>
+        <template v-slot:item.callsign="{ item }">
+            <v-chip
+                label
+                class="font-weight-bold"
+                :ripple="false"
+                :href="`https://www.qrz.com/db/${item.callsign}`"
+                :text="item.callsign"
+            />
+        </template>
         <template v-slot:item.freq="{ item }">
             {{ item.freq }} ({{ item.band }})
         </template>

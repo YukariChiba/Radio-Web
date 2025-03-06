@@ -10,7 +10,8 @@
     "email": "i@0x7f.cc",
     "links": [
       { "title": "HomePage", "link": "https://ewe.moe" },
-      { "title": "Blog", "link": "https://0x7f.cc" }
+      { "title": "Blog", "link": "https://0x7f.cc" },
+      { "title": "Email", "link": "mailto:radio@0x7f.cc" }
     ]
   },
   "devices": [
@@ -53,6 +54,19 @@
       "ant": "SG7900",
       "type": ["UHF", "VHF"],
       "icon": "router-wireless"
+    }
+  ],
+  "tools": [
+    {
+      "title": "Morse Tool",
+      "link": "https://morse.pages.dev"
+    }
+  ],
+  "qslcards": [
+    {
+      "title": "2025.03 Version",
+      "front": "https://github.com/YukariChiba/qsl/blob/main/front.png?raw=true",
+      "back": "https://github.com/YukariChiba/qsl/blob/main/back.png?raw=true"
     }
   ]
 }

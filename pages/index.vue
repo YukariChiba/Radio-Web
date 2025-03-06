@@ -7,6 +7,7 @@
             >
                 <OperatorInfo class="ma-2" />
                 <DeviceList class="ma-2" />
+                <UsefulTools class="ma-2" />
                 <PageFooter class="ma-2" />
             </div>
             <div class="d-flex flex-column order-1 order-sm-3 flex-grow-1">

@@ -25,7 +25,7 @@
             <p>
                 QSL card exchange is welcomed.<br />
                 <b>QSL Card Postal Address</b>:<br />
-                No.2006, Xiyuan Ave, West Hi-Tech Zone, 611731
+                999 Gaoxin Blvd., Wuhan, P.R.China, 430223
             </p>
         </v-card-text>
         <v-divider />
@@ -42,7 +42,7 @@
             <p>
                 欢迎进行 QSL 卡片的交换。<br />
                 <b>QSL 卡片邮寄地址</b>：<br />
-                No.2006, Xiyuan Ave, West Hi-Tech Zone, 611731
+                湖北省武汉市高新大道 999 号，430223
             </p>
         </v-card-text>
     </div>

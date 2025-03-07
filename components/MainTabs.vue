@@ -7,13 +7,14 @@
             grow
         >
             <v-tab value="about">
-                <v-icon start>mdi-pound</v-icon> About
+                <v-icon class="hidden-xs" start>mdi-pound</v-icon> About
             </v-tab>
             <v-tab value="log">
-                <v-icon start>mdi-notebook</v-icon> QSO Log
+                <v-icon class="hidden-xs" start>mdi-notebook</v-icon> QSO Log
             </v-tab>
             <v-tab value="qslcardpreview">
-                <v-icon start>mdi-card-bulleted</v-icon> QSL Card
+                <v-icon class="hidden-xs" start>mdi-card-bulleted</v-icon> QSL
+                Card
             </v-tab>
         </v-tabs>
         <v-window v-model="tab">

@@ -9,9 +9,10 @@
     "avatar": "https://0x7f.cc/img/favicon.jpg",
     "email": "i@0x7f.cc",
     "links": [
-      { "title": "HomePage", "link": "https://ewe.moe" },
+      { "title": "Home", "link": "https://ewe.moe" },
       { "title": "Blog", "link": "https://0x7f.cc" },
-      { "title": "Email", "link": "mailto:radio@0x7f.cc" }
+      { "title": "Email", "link": "mailto:radio@0x7f.cc" },
+      { "title": "QRZ", "link": "https://www.qrz.com/db/BH8AEA" }
     ]
   },
   "devices": [

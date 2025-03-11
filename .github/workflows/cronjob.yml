@@ -1,0 +1,24 @@
+name: cronjob
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  push:
+    branches: [ new ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Run jobs
+      env:
+        URL: ${{ secrets.LOTWURL }}
+      run: wget -A.txt $URL -O qso.raw && exec/collect.py
+    - name: Copy results
+      run: mkdir -p qso_data && cp assets/qso.json qso_data/
+    - name: Deploy Data
+      uses: JamesIves/github-pages-deploy-action@4.1.4
+      with:
+        branch: qso_data
+        folder: qso_data

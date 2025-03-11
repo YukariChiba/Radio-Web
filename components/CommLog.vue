@@ -1,5 +1,6 @@
 <template>
     <v-data-table
+        :loading="loading"
         width="100%"
         :headers="mdAndUp ? headers : headers_mobile"
         :items="qsodata"
@@ -58,13 +59,14 @@
 
 <script setup>
 import moment from "moment";
-import qsolog from "@/assets/qso.json";
 import callsign from "callsign";
 import CountryFlag from "vue-country-flag-next";
 import { useDisplay } from "vuetify";
 
 const { mdAndUp } = useDisplay();
 const getinfo = callsign.getAmateurRadioInfoByCallsign;
+const qsolog = ref([]);
+const loading = ref(true);
 const headers_mobile = [
     {
         title: "Callsign",
@@ -119,7 +121,7 @@ const headers = [
 ];
 
 const qsodata = computed(() => {
-    return qsolog.map(
+    return qsolog.value.map(
         (x) =>
             new Object({
                 callsign: x[0],
@@ -131,6 +133,16 @@ const qsodata = computed(() => {
             }),
     );
 });
+
+const fetchData = async () => {
+    const response = await fetch(
+        "https://yukarichiba.github.io/Radio-Web/qso.json",
+    );
+    qsolog.value = await response.json();
+    loading.value = false;
+};
+
+fetchData();
 </script>
 
 <style scoped>

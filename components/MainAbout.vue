@@ -26,10 +26,19 @@
                 QSL card exchange is welcomed.<br />
                 <b>QSL Card Postal Address</b>:<br />
                 999 Gaoxin Blvd., Wuhan, P.R.China, 430223<br />
-                To ensure reliable delivery of your QSL card, please use
-                registered mail when conditions permit. The information required
-                for mailing can be requested by contacting.
             </p>
+            <v-alert
+                color="warning"
+                icon="$warning"
+                variant="outlined"
+                density="compact"
+                title="Attention"
+                text="The local post office has confirmed that it
+   deliberately discards all ordinary mail, so to ensure the
+   reliable delivery of your QSL card, it is important to send it
+   by registered mail. Information and additional costs required
+   for mailing can be requested by contacting us."
+            ></v-alert>
         </v-card-text>
         <v-divider />
         <v-card-text>
@@ -46,9 +55,16 @@
                 欢迎进行 QSL 卡片的交换。<br />
                 <b>QSL 卡片邮寄地址</b>：<br />
                 湖北省武汉市高新大道 999 号，430223<br />
-                为确保您的 QSL
-                卡的可靠送达，请在条件允许的情况下使用挂号信。邮寄所需要的信息可以联系索要。
             </p>
+            <v-alert
+                color="warning"
+                icon="$warning"
+                variant="outlined"
+                density="compact"
+                title="注意"
+                text="本地邮政所已确认会故意丢弃所有平信，为确保您的 QSL
+       卡的可靠送达，请务必使用挂号信寄送。邮寄所需要的信息和额外费用可以联系本台索要。"
+            ></v-alert>
         </v-card-text>
     </div>
 </template>

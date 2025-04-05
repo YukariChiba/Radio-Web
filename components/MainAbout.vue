@@ -20,25 +20,25 @@
                 Founder and member of UESTC Amateur Radio Association.
             </p>
             <h3>QSO Log Info</h3>
-            <p>All logs will be uploaded to LOTW, HRDLOG and QRZ.</p>
-            <h3>QSL Card Exchange</h3>
             <p>
-                QSL card exchange is welcomed.<br />
-                <b>QSL Card Postal Address</b>:<br />
-                999 Gaoxin Blvd., Wuhan, P.R.China, 430223<br />
+                All logs will be uploaded to LOTW, HRDLOG and QRZ in 72 hrs. If
+                your record has not been uploaded, please contact me.
+            </p>
+            <h3>QSL Card Exchange</h3>
+            <p>QSL card exchange is welcomed.</p>
+            <p>
+                All cards received will be replied to, SASE is not required, it
+                is recommended to provide your address in the mail.
             </p>
             <v-alert
-                color="warning"
-                icon="$warning"
-                variant="outlined"
                 density="compact"
-                title="Attention"
-                text="The local post office has confirmed that it
-   deliberately discards all ordinary mail, so to ensure the
-   reliable delivery of your QSL card, it is important to send it
-   by registered mail. Information and additional costs required
-   for mailing can be requested by contacting us."
-            ></v-alert>
+                title="QSL Card Postal Address (Public, Receive):"
+            >
+                YUKARI<br />
+                P.O. Box 399-5, HuiNan Post Office<br />
+                Shanghai, P.R.China 201399<br />
+                +86-21-58223996
+            </v-alert>
         </v-card-text>
         <v-divider />
         <v-card-text>
@@ -49,22 +49,22 @@
                 业余无线电协会建立者兼成员。
             </p>
             <h3>通联日志</h3>
-            <p>所有通联日志都将被上传至 LOTW, HRDLOG 和 QRZ。</p>
-            <h3>QSL 卡片交换</h3>
             <p>
-                欢迎进行 QSL 卡片的交换。<br />
-                <b>QSL 卡片邮寄地址</b>：<br />
-                湖北省武汉市高新大道 999 号，430223<br />
+                所有通联日志都将在 72 小时内被上传至 LOTW, HRDLOG 和
+                QRZ，如果您的记录未被上传，请与我联系。
             </p>
-            <v-alert
-                color="warning"
-                icon="$warning"
-                variant="outlined"
-                density="compact"
-                title="注意"
-                text="本地邮政所已确认会故意丢弃所有平信，为确保您的 QSL
-       卡的可靠送达，请务必使用挂号信寄送。邮寄所需要的信息和额外费用可以联系本台索要。"
-            ></v-alert>
+            <h3>QSL 卡片交换</h3>
+            <p>欢迎进行 QSL 卡片的交换。</p>
+            <p>
+                收到的所有卡片都会回复，SASE
+                不是必需，但是建议信件内附您的地址。
+            </p>
+            <v-alert density="compact" title="QSL 卡片邮寄地址（公开，接收）:">
+                YUKARI（收）<br />
+                上海市 399-5 邮政信箱<br />
+                邮编：201399<br />
+                021-58223996
+            </v-alert>
         </v-card-text>
     </div>
 </template>

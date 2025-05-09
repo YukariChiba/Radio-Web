@@ -6,10 +6,6 @@
                 src="https://www.hamqsl.com/solar2.php?bgcolor=white&back=transparent"
             />
         </div>
-        <v-card-title class="mb-4">
-            <v-icon large start>mdi-pound</v-icon>
-            About / 关于
-        </v-card-title>
         <v-card-text>
             <h2>English Version</h2>
             <p>
@@ -18,6 +14,10 @@
             <p>
                 Class A license since 2021.05. Class B license since 2022.1.
                 Founder and member of UESTC Amateur Radio Association.
+            </p>
+            <p>
+                To protect my privacy and for the sake of online ID consistency,
+                I use Yukari Chiba as a term of endearment.
             </p>
             <h3>QSO Log Info</h3>
             <p>
@@ -35,7 +35,10 @@
                 updated.
             </p>
             <h3>QSL Card Exchange</h3>
-            <p>QSL card exchange is welcomed.</p>
+            <p>
+                QSL card exchange is welcomed. DO NOT exchange card via BURO,
+                which is almost unavailable in China.
+            </p>
             <p>
                 All cards received will be replied to, SASE is not required, it
                 is recommended to provide your address in the mail.
@@ -63,6 +66,10 @@
                 2021.5 获得 A 证，2022.1 获得 B 证，是 UESTC
                 业余无线电协会建立者兼成员。
             </p>
+            <p>
+                为保护个人隐私及出于线上 ID 一致性的惯例，我使用 Yukari Chiba
+                作为对外称呼。
+            </p>
             <h3>通联日志</h3>
             <p>
                 所有通联日志都将在 72 小时内被上传至 LOTW, HRDLOG 和
@@ -77,7 +84,10 @@
                 以外的平台不经常使用，不能保证日志会更新。
             </p>
             <h3>QSL 卡片交换</h3>
-            <p>欢迎进行 QSL 卡片的交换。</p>
+            <p>
+                欢迎进行 QSL 卡片的交换。不要使用 BURO
+                进行卡片交换，在中国该服务几乎不可用。
+            </p>
             <p>
                 收到的所有卡片都会回复，SASE
                 不是必需，但是建议信件内附您的地址。

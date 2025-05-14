@@ -56,7 +56,9 @@
         "BG5GFU",
         "BD7PKB",
         "BD8NBG",
-        "C21TS"
+        "C21TS",
+        "BH8BMZ",
+        "KH6DC"
     ],
     "cfm": [
         "BI6OKX",
@@ -66,7 +68,16 @@
         "BH1LKO",
         "BG7SFE",
         "BD8DHZ",
-        "BD5CAM"
+        "BD5CAM",
+        "BG5ACF",
+        "BG7QJE"
     ],
-    "eye": ["BH1VSA", "BH8EES", "BH5HSU", "BG5JFI", "BI7BST", "BI9BQ"]
+    "eye": [
+        "BH1VSA",
+        "BH8EES",
+        "BH5HSU",
+        "BG5JFI",
+        "BI7BST",
+        "BI9BQ"
+    ]
 }

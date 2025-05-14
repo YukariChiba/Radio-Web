@@ -1,0 +1,25 @@
+[
+    {
+        "img": "controller.jpg",
+        "title": "Remote Controller",
+        "text": [
+            "A linux-powered radio service device, built on Rock5B and debian, that uploads APRS data while providing web sdr services based on HackRF. ",
+            "Used to remotely control radio transceivers in HF communications, especially for digital mode such as FT8.",
+            "A camera is connected to monitor the status of the transceiver and power supply.",
+            "Tx and Rx audio signals are simultaneously forwarded to the web stream, which is useful for live broadcasts.",
+            ""
+        ]
+    },
+    {
+        "img": "rigs.jpg",
+        "title": "Some RIGs",
+        "text": [
+            "Xiegu G90S, the main HF band transceiver.",
+            "Baofeng UV5R, as a portable communication solution when going outside.",
+            "QYT KT-8900, as it supports quad-band monitoring, is used as a UHF/VHF band base station at home.",
+            "HackRF (not in photo) as a long-term receiver in some special bands.",
+            "DKGP10 (two antenna tuning boxes in photo) serves as the primary HF antenna, extended and deployed when needed.",
+            "SG7900 antenna (not in photo) is permanently mounted for reception of intra- and inter-urban UHF/VHF signals."
+        ]
+    }
+]

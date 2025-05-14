@@ -11,6 +11,7 @@
             </v-tab>
             <v-tab value="log">
                 <v-icon class="hidden-xs" start>mdi-notebook</v-icon> QSO Log
+                <v-chip class="ml-2 hidden-xs" label size="x-small">LOTW</v-chip>
             </v-tab>
             <v-tab value="qslcardpreview">
                 <v-icon class="hidden-xs" start>mdi-card-bulleted</v-icon> QSL

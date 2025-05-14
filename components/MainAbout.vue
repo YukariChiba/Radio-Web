@@ -1,11 +1,5 @@
 <template>
     <div>
-        <div class="float-right">
-            <v-img
-                class="mr-3 hidden-sm-and-down"
-                src="https://www.hamqsl.com/solar2.php?bgcolor=white&back=transparent"
-            />
-        </div>
         <v-card-text>
             <h2>English Version</h2>
             <p>
@@ -106,6 +100,49 @@
                 卡片，请按信封内提供的地址寄回即可。
             </p>
         </v-card-text>
+
+        <v-divider />
+        <v-card-text>
+            <h2>日本語版</h2>
+            <p>こんにちは、こちらはBH8AEAです。私のページにようこそ。</p>
+            <p>
+                2021年5月にA級アマチュア無線技士免許を、2022年1月にB級アマチュア無線技士免許を取得しました。UESTCアマチュア無線クラブ（電子科技大学アマチュア無線協会）の設立者であり、メンバーでもあります。
+            </p>
+            <p>
+                個人情報保護のため、またオンラインIDの一貫性を保つ慣例に基づき、対外的には「Yukari
+                Chiba」（千葉 由香里）という名前（仮名）を使用しています。
+            </p>
+            <h3>交信ログ</h3>
+            <p>
+                全ての交信ログは72時間以内にLOTW、HRDLOG、およびQRZにアップロードされます。もしお客様の記録がアップロードされていない場合は、すぐにご連絡ください。
+            </p>
+            <p>
+                交信ログはまずLOTWにアップロードされ、HRDLOG/ham365はLOTWから自動的に更新されます。QRZはLOTWから手動で更新します。
+            </p>
+            <p>
+                LOTW、HRDLOG/ham365、QRZ以外のプラットフォームはあまり使用していないため、ログが更新される保証はありません。
+            </p>
+            <h3>QSLカード交換</h3>
+            <p>
+                QSLカードの交換を歓迎します。BURO（ビューロー）経由でのカード交換はご遠慮ください。中国ではこのサービスはほとんど利用できません。
+            </p>
+            <p>
+                受け取った全てのカードには返信いたします。SASE（返信用切手貼り付け済み封筒）は必須ではありませんが、お手紙に返信先住所を記載していただくことをお勧めします。
+            </p>
+            <v-alert density="compact">
+                <code>
+                    YUKARI<br />
+                    P.O. Box 399-5, HuiNan Post Office<br />
+                    Shanghai, P.R.China 201399<br />
+                    +86-21-58223996
+                </code>
+            </v-alert>
+            <p>
+                ご注意ください。ここに記載の公開受取住所は、私がQSLカードをこちらから発送する際に記載する返信先住所と異なる場合があります。もし私からのQSLカードを受け取った場合は、カードに同封またはカード自体に記載されている返信先住所へお送りください。
+            </p>
+        </v-card-text>
+        <v-divider />
+        <GalleryList />
     </div>
 </template>
 

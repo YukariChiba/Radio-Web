@@ -3,10 +3,11 @@
         <PageTitle class="ma-2" />
         <div class="d-flex mt-2 flex-wrap flex-sm-nowrap">
             <div
-                class="d-flex flex-column order-3 order-sm-1 flex-grow-1 sidebar"
+                class="d-flex flex-column order-3 order-sm-1 flex-grow-1 flex-sm-grow-0 sidebar"
             >
                 <OperatorInfo class="ma-2" />
                 <DeviceList class="ma-2" />
+                <Widgets class="ma-2" />
                 <UsefulTools class="ma-2" />
                 <PageFooter class="ma-2" />
             </div>

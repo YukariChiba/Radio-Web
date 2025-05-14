@@ -1,73 +1,73 @@
 {
-  "callsign": "BH8AEA",
-  "description": "Just another amateur radio station",
-  "location": "Wuhan, Hubei",
-  "locator": "OM70gl",
-  "class": "B",
-  "operator": {
-    "name": "Yukari Chiba",
-    "avatar": "https://0x7f.cc/img/favicon.jpg",
-    "email": "i@0x7f.cc",
-    "links": [
-      { "title": "Home", "link": "https://ewe.moe" },
-      { "title": "Blog", "link": "https://0x7f.cc" },
-      { "title": "Email", "link": "mailto:radio@0x7f.cc" },
-      { "title": "QRZ", "link": "https://www.qrz.com/db/BH8AEA" }
+    "callsign": "BH8AEA",
+    "description": "Just another amateur radio station",
+    "location": "Wuhan, Hubei",
+    "locator": "OM70gl",
+    "class": "B",
+    "operator": {
+        "name": "Yukari Chiba",
+        "avatar": "https://0x7f.cc/img/favicon.jpg",
+        "email": "i@0x7f.cc",
+        "links": [
+            { "title": "Home", "link": "https://ewe.moe" },
+            { "title": "Blog", "link": "https://0x7f.cc" },
+            { "title": "Email", "link": "mailto:radio@0x7f.cc" },
+            { "title": "QRZ", "link": "https://www.qrz.com/db/BH8AEA" }
+        ]
+    },
+    "devices": [
+        {
+            "name": "XIEGU G90S",
+            "status": true,
+            "power": 25,
+            "ant": "DKGP10",
+            "type": ["HF"],
+            "icon": "router-wireless"
+        },
+        {
+            "name": "HackRF One",
+            "status": true,
+            "power": 0.01,
+            "ant": "270mm Rod",
+            "type": ["UHF", "VHF", "HF"],
+            "icon": "developer-board"
+        },
+        {
+            "name": "Baofeng UV-5R",
+            "status": true,
+            "power": 5,
+            "ant": "Baofeng",
+            "type": ["UHF", "VHF"],
+            "icon": "radio-handheld"
+        },
+        {
+            "name": "Jianpai 8800UV",
+            "status": true,
+            "power": 5,
+            "ant": "Baofeng",
+            "type": ["UHF", "VHF"],
+            "icon": "radio-handheld"
+        },
+        {
+            "name": "QYT KT8900",
+            "status": true,
+            "power": 25,
+            "ant": "SG7900",
+            "type": ["UHF", "VHF"],
+            "icon": "router-wireless"
+        }
+    ],
+    "tools": [
+        {
+            "title": "Morse Tool",
+            "link": "https://morse.pages.dev"
+        }
+    ],
+    "qslcards": [
+        {
+            "title": "2025.03 Version",
+            "front": "/qsl_v1_front.jpg",
+            "back": "/qsl_v1_back.jpg"
+        }
     ]
-  },
-  "devices": [
-    {
-      "name": "XIEGU G90S",
-      "status": true,
-      "power": 25,
-      "ant": "DKGP10",
-      "type": ["HF"],
-      "icon": "router-wireless"
-    },
-    {
-      "name": "HackRF One",
-      "status": true,
-      "power": 0.01,
-      "ant": "270mm Rod",
-      "type": ["UHF", "VHF", "HF"],
-      "icon": "developer-board"
-    },
-    {
-      "name": "Baofeng UV-5R",
-      "status": true,
-      "power": 5,
-      "ant": "Baofeng",
-      "type": ["UHF", "VHF"],
-      "icon": "radio-handheld"
-    },
-    {
-      "name": "Jianpai 8800UV",
-      "status": true,
-      "power": 5,
-      "ant": "Baofeng",
-      "type": ["UHF", "VHF"],
-      "icon": "radio-handheld"
-    },
-    {
-      "name": "QYT KT8900",
-      "status": true,
-      "power": 25,
-      "ant": "SG7900",
-      "type": ["UHF", "VHF"],
-      "icon": "router-wireless"
-    }
-  ],
-  "tools": [
-    {
-      "title": "Morse Tool",
-      "link": "https://morse.pages.dev"
-    }
-  ],
-  "qslcards": [
-    {
-      "title": "2025.03 Version",
-      "front": "https://github.com/YukariChiba/qsl/blob/main/front.png?raw=true",
-      "back": "https://github.com/YukariChiba/qsl/blob/main/back.png?raw=true"
-    }
-  ]
 }

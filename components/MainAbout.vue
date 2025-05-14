@@ -37,6 +37,11 @@
                 All cards received will be replied to, SASE is not required, it
                 is recommended to provide your address in the mail.
             </p>
+            <p>
+                For international card exchange: 
+                Cash and any stamps are NOT required and should NOT be enclosed in the envelope.
+                An IRC is optional and not required as I will return the card to you free of charge if I receive it.
+            </p>
             <v-alert density="compact">
                 <code>
                     YUKARI<br />
@@ -86,6 +91,10 @@
                 收到的所有卡片都会回复，SASE
                 不是必需，但是建议信件内附您的地址。
             </p>
+            <p>
+                对于国际换卡，信封里不需要也不要夹带现金和任何邮票。
+                夹带一张 IRC 是可选但不是必需的。如果我收到了卡片，会免费给您回卡。
+            </p>
             <v-alert density="compact">
                 <code>
                     YUKARI（收）<br />
@@ -128,6 +137,9 @@
             </p>
             <p>
                 受け取った全てのカードには返信いたします。SASE（返信用切手貼り付け済み封筒）は必須ではありませんが、お手紙に返信先住所を記載していただくことをお勧めします。
+            </p>
+            <p>
+                国際カード交換の場合、現金と切手は不要ですので、封筒に同封しないでください。 IRCはオプションですが、私がカードを受け取った場合、無料で返信しますので、必須ではありません。
             </p>
             <v-alert density="compact">
                 <code>

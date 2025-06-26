@@ -23,5 +23,8 @@
   "devDependencies": {
     "vite-plugin-vuetify": "^2.1.1",
     "vuetify": "^3.8.11"
+  },
+  "overrides": {
+    "estree-walker": "2.0.2"
   }
 }

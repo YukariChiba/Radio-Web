@@ -1,4 +1,13 @@
 <template>
+    <v-alert
+        v-if="!loading && qsodata.length == 0"
+        class="ma-2"
+        variant="outlined"
+        color="warning"
+        icon="mdi-alert-outline"
+        title="Things happen that shouldn't happen"
+        text="No QSO data was obtained, but this is not possible, and a reasonable explanation is that the LOTW is down or under maintenance, or that there is a problem with your network."
+    />
     <v-data-table
         :loading="loading"
         width="100%"

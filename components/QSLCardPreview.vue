@@ -68,6 +68,84 @@
 
     <div class="mt-2">
         <v-card-text>
+            <h2>Active Card Sending Policy / 主动发卡策略</h2>
+            <v-table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Unique DXCC QSO</th>
+                        <th>Unique QSO</th>
+                        <th>Usual QSO</th>
+                        <th>Usual QSO (Non-initial Exchange)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Digital</td>
+                        <td>
+                            <v-icon icon="mdi-check-decagram" color="success" />
+                            100%
+                        </td>
+                        <td>
+                            <v-icon icon="mdi-check-circle" color="success" />
+                            Most
+                        </td>
+                        <td>
+                            <v-icon icon="mdi-help-circle" color="warning" />
+                            Uncertain
+                        </td>
+                        <td>
+                            <v-icon icon="mdi-minus-circle" color="error" />
+                            Passive
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Voice</td>
+                        <td>
+                            <v-icon icon="mdi-check-decagram" color="success" />
+                            100%
+                        </td>
+                        <td>
+                            <v-icon icon="mdi-check-decagram" color="success" />
+                            100%
+                        </td>
+                        <td>
+                            <v-icon icon="mdi-check-circle" color="success" />
+                            Most
+                        </td>
+                        <td>
+                            <v-icon icon="mdi-help-circle" color="warning" />
+                            Uncertain
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>CW</td>
+                        <td>
+                            <v-icon icon="mdi-check-decagram" color="success" />
+                            100%
+                        </td>
+                        <td>
+                            <v-icon icon="mdi-check-decagram" color="success" />
+                            100%
+                        </td>
+                        <td>
+                            <v-icon icon="mdi-check-circle" color="success" />
+                            Most
+                        </td>
+                        <td>
+                            <v-icon icon="mdi-help-circle" color="warning" />
+                            Uncertain
+                        </td>
+                    </tr>
+                </tbody>
+            </v-table>
+        </v-card-text>
+    </div>
+
+    <v-divider />
+
+    <div class="mt-2">
+        <v-card-text>
             <h2>Card Log</h2>
             <h3>
                 Received

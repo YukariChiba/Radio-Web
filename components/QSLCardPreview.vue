@@ -188,7 +188,7 @@
                 </v-chip>
             </p>
             <h3>
-                Received (Eyeball)
+                Received (Eyeball / SWL)
                 <v-chip class="ml-2" size="x-small" label>{{
                     q.eye.length
                 }}</v-chip>
